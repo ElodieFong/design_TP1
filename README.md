@@ -6,7 +6,6 @@ Application Vue.js inspirée du prototype Figma créé pour les professeurs de l
 
 - Liste d'exercices avec recherche et tags
 - Détail d'un exercice en cliquant dessus
-- Random exercise qui sélectionne un exercice au hasard
 - Barre dépliable
 - Ajout d'un exercice à travers un formulaire
 - Ma séance (panier)
