@@ -10,7 +10,7 @@ const articles = ref([
   {
     id: 1,
     titre: 'What if',
-    categorie: 'Impro',
+    categorie: 'Improv',
     niveau: 'Beginner',
     nombreParticipants: '2-5 people',
     duree: '8-10 min',
@@ -64,7 +64,7 @@ const articles = ref([
   {
     id: 7,
     titre: 'Émotion surprise',
-    categorie: 'Impro',
+    categorie: 'Improv',
     niveau: 'Intermediate',
     nombreParticipants: '2-6 people',
     duree: '10 min',
@@ -88,13 +88,14 @@ const categories = computed(() => [
   'Intermediate',
   'Advanced',
   'Training',
-  'Impro',
+  'Improv',
   'Theater'
 ])
 
 function ajouterAuPanier(article) {
   if (!panier.value.some(item => item.id === article.id)) {
     panier.value.push(article)
+    alert('Exercise added successfully to the session!');
   }
 }
 
