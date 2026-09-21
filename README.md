@@ -1,16 +1,15 @@
 # La Scène Efreinée — Vue.js
 
-Application Vue.js inspirée du prototype Figma de La Scène Efreinée.
+Application Vue.js inspirée du prototype Figma créé pour les professeurs de l'association La Scène Efreinée. Les articles sont les exercices proposés par l'application et le panier est la séance contenant les exercices sélectionnés par l'utilisateur.
 
 ## Fonctionnalités
 
-- Home avec recherche et tags
-- Liste d'exercices
-- Détail d'un exercice
-- Random exercise
-- Menu hamburger dépliable
-- Ajout d'exercice
-- Ma séance / panier
+- Liste d'exercices avec recherche et tags
+- Détail d'un exercice en cliquant dessus
+- Random exercise qui sélectionne un exercice au hasard
+- Barre dépliable
+- Ajout d'un exercice à travers un formulaire
+- Ma séance (panier)
 - Connexion fictive
 - Administration protégée par Vue Router
 - Suppression avec confirmation
