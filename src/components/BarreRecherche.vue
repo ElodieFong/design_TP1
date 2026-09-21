@@ -11,12 +11,11 @@ defineEmits(['update:modelValue'])
 
 <template>
   <div class="search-bar">
-    <span>Search</span>
-    <input
+    <input placeholder="Search"
       :value="modelValue"
       aria-label="Search"
       @input="$emit('update:modelValue', $event.target.value)"
     />
-    <span class="search-icon">⌕</span>
+    <span class="search-icon">🔍︎</span>
   </div>
 </template>

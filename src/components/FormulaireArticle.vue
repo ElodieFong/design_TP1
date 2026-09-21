@@ -40,7 +40,7 @@ function submit() {
     <label>Category</label>
     <select v-model="form.categorie">
       <option>Training</option>
-      <option>Impro</option>
+      <option>Improv</option>
       <option>Theater</option>
     </select>
 
